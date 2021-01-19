@@ -1,0 +1,27 @@
+{
+    "name": "deemonic/laravel-twilio-simple-sms",
+    "description": "Send a SMS using the Twilio API built on the laravel facade architecture",
+    "require": {
+        "twilio/sdk": "^6.16"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Deeming",
+            "email": "michael.deeming90@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Deemonic\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deemonic\\SimpleSMSServiceProvider"
+            ]
+        }
+    }
+}
